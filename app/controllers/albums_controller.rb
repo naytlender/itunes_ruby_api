@@ -7,8 +7,4 @@ class AlbumsController
   def self.index(itunes_id)
     @albums = Artist.find_by_id(itunes_id).albums
   end
-
-  def self.show(itunes_id)
-    @artist = Artist.find_by_id(itunes_id)
-  end
 end
