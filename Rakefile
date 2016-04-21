@@ -15,7 +15,8 @@ end
 desc 'show artist by name'
 task :show_artist, :name do |_t, args|
   name = args[:name]
-  puts 'itunes id: ' + Artist.find_by_name(name).itunes_id
+  artist = Artist.find_by(name: name)
+  puts "itunes id: #{artist.itunes_id}"
 end
 
 desc 'find and save albums by itunes_id'

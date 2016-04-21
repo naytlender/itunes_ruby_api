@@ -39,6 +39,6 @@ class AlbumsService
   end
 
   def artist(itunes_id)
-    Artist.find_by_id(itunes_id)
+    Artist.find_by(itunes_id: itunes_id)
   end
 end

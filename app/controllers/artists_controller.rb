@@ -7,6 +7,6 @@ class ArtistsController
   end
 
   def self.show(itunes_id)
-    @artist = Artist.find_by_id(itunes_id)
+    @artist = Artist.find_by(itunes_id: itunes_id)
   end
 end
