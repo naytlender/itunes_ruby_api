@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.2.3p173'
+ruby '2.2.3'
 gem 'mongoid'
 gem 'sinatra'
