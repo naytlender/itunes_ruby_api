@@ -1,6 +1,10 @@
 # Ruby rake application for itunes Api
+  Ruby version '2.2.3'
 
+# Installation
 ```sh
+git clone https://github.com/naytlender/itunes_ruby_api
+
 gem install bundler
 gem install mongoid
 gem install sinatra
@@ -26,7 +30,7 @@ bundle install
     localhost:4567/artists/:itunes_id            - particular artist
     localhost:4567/artists/:itunes_id/albums     - albums of particular artist
   ```
-### Example
+### Example rake app usage
 ```sh
   rake find[offspring]
 ```
