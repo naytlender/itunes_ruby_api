@@ -80,6 +80,13 @@ id: 5718801fbc54f411b6ae538a
 
 ### Client part
 
+You will need the following things properly installed on your computer.
+
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
+* [Bower](http://bower.io/)
+* [Ember CLI](http://ember-cli.com/)
+
 Open ember client folder (cd client/), then type:
 
 ```sh
