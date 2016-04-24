@@ -3,7 +3,7 @@
 
 # Installation
 ```sh
-git clone https://github.com/naytlender/itunes_ruby_api
+git clone --recursive https://github.com/naytlender/itunes_ruby_api
 
 gem install bundler
 gem install mongoid
@@ -76,4 +76,19 @@ album: Coming for You - Single
 ```
 ```sh
 id: 5718801fbc54f411b6ae538a
+```
+
+### Client part
+
+Open ember client folder (cd client/), then type:
+
+```sh
+npm install
+bower install
+ember build
+```
+
+Go back into app folder and run sinatra server:
+```sh
+ruby app.rb
 ```
