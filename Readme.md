@@ -99,3 +99,7 @@ Go back into app folder and run sinatra server:
 ```sh
 ruby app.rb
 ```
+Visit
+```sh
+localhost:4567
+```
